@@ -1,0 +1,394 @@
+EESchema Schematic File Version 2
+LIBS:74xx
+LIBS:switcher
+LIBS:adc-dac
+LIBS:analog-switches
+LIBS:atmel
+LIBS:bjt
+LIBS:can
+LIBS:capacitive
+LIBS:cmos4000
+LIBS:conn
+LIBS:device
+LIBS:digital-audio
+LIBS:digpot
+LIBS:diode
+LIBS:display
+LIBS:fet
+LIBS:hc11
+LIBS:i2c
+LIBS:inductive
+LIBS:intel
+LIBS:interface
+LIBS:linear
+LIBS:memory
+LIBS:microchip
+LIBS:opto
+LIBS:periph
+LIBS:power
+LIBS:protection
+LIBS:regul
+LIBS:renesas
+LIBS:resist
+LIBS:supervisor
+LIBS:video
+LIBS:figaro
+LIBS:radio
+LIBS:automation
+LIBS:graphic
+LIBS:xilinx
+LIBS:HALL-TLE4935G
+LIBS:HALL-TLE4935L
+LIBS:custom
+LIBS:hall-o-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TLE4935G U1
+U 1 1 56F4AE5E
+P 5175 1950
+F 0 "U1" H 5625 2250 60  0000 C CNN
+F 1 "ss495b" H 5625 2150 60  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Horizontal1_Inline_Narrow_Oval" H 5175 1950 60  0001 C CNN
+F 3 "" H 5175 1950 60  0000 C CNN
+	1    5175 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L POT RV1
+U 1 1 56F4AF2F
+P 4825 3625
+F 0 "RV1" H 4825 3545 50  0000 C CNN
+F 1 "10K" H 4825 3625 50  0000 C CNN
+F 2 "TC33X-2-103E:35WR" H 4825 3625 50  0001 C CNN
+F 3 "" H 4825 3625 50  0000 C CNN
+	1    4825 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R1
+U 1 1 56F4AF7B
+P 5000 3925
+F 0 "R1" H 5030 3945 50  0000 L CNN
+F 1 "10k" H 5030 3885 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 5000 3925 50  0001 C CNN
+F 3 "" H 5000 3925 50  0000 C CNN
+	1    5000 3925
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R3
+U 1 1 56F4AF9F
+P 5975 2450
+F 0 "R3" H 6005 2470 50  0000 L CNN
+F 1 "560R" H 6005 2410 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 5975 2450 50  0001 C CNN
+F 3 "" H 5975 2450 50  0000 C CNN
+	1    5975 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R2
+U 1 1 56F4B016
+P 5575 3925
+F 0 "R2" H 5605 3945 50  0000 L CNN
+F 1 "22k" H 5605 3885 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 5575 3925 50  0001 C CNN
+F 3 "" H 5575 3925 50  0000 C CNN
+	1    5575 3925
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R4
+U 1 1 56F4B051
+P 5975 3600
+F 0 "R4" H 6005 3620 50  0000 L CNN
+F 1 "10k" H 6005 3560 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 5975 3600 50  0001 C CNN
+F 3 "" H 5975 3600 50  0000 C CNN
+	1    5975 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R5
+U 1 1 56F4B081
+P 6225 3275
+F 0 "R5" H 6255 3295 50  0000 L CNN
+F 1 "1m" H 6255 3235 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 6225 3275 50  0001 C CNN
+F 3 "" H 6225 3275 50  0000 C CNN
+	1    6225 3275
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R6
+U 1 1 56F4B0CF
+P 6675 3100
+F 0 "R6" H 6705 3120 50  0000 L CNN
+F 1 "560R" H 6705 3060 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 6675 3100 50  0001 C CNN
+F 3 "" H 6675 3100 50  0000 C CNN
+	1    6675 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R7
+U 1 1 56F4B132
+P 6950 2900
+F 0 "R7" H 6980 2920 50  0000 L CNN
+F 1 "1k" H 6980 2860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 6950 2900 50  0001 C CNN
+F 3 "" H 6950 2900 50  0000 C CNN
+	1    6950 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R8
+U 1 1 56F4B199
+P 7375 2350
+F 0 "R8" H 7405 2370 50  0000 L CNN
+F 1 "10k" H 7405 2310 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 7375 2350 50  0001 C CNN
+F 3 "" H 7375 2350 50  0000 C CNN
+	1    7375 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C2
+U 1 1 56F4B1EB
+P 4200 2675
+F 0 "C2" H 4210 2745 50  0000 L CNN
+F 1 "100nf" H 4210 2595 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4200 2675 50  0001 C CNN
+F 3 "" H 4200 2675 50  0000 C CNN
+	1    4200 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C1
+U 1 1 56F4B292
+P 3950 2675
+F 0 "C1" H 3960 2745 50  0000 L CNN
+F 1 "10u/16v" H 3960 2595 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow" H 3950 2675 50  0001 C CNN
+F 3 "" H 3950 2675 50  0000 C CNN
+	1    3950 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P1
+U 1 1 56F4B2F8
+P 6575 1650
+F 0 "P1" H 6575 1900 50  0000 C CNN
+F 1 "CONN_01X04" V 6675 1650 50  0000 C CNN
+F 2 "RMC_pcb_header:pin_header_2.54mm_1x4" H 6575 1650 50  0001 C CNN
+F 3 "" H 6575 1650 50  0000 C CNN
+	1    6575 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Led_Small D1
+U 1 1 56F4B36A
+P 6675 3500
+F 0 "D1" H 6625 3625 50  0000 L CNN
+F 1 "LED" H 6500 3400 50  0000 L CNN
+F 2 "LEDs:LED_0805" V 6675 3500 50  0001 C CNN
+F 3 "" V 6675 3500 50  0000 C CNN
+	1    6675 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L NPN Q1
+U 1 1 56F4B3E4
+P 7275 2900
+F 0 "Q1" H 7425 3000 60  0000 L CNN
+F 1 "BC848" H 7425 2900 60  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7425 2825 30  0001 L CNN
+F 3 "" H 7275 2900 50  0000 C CNN
+	1    7275 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM258D U2
+U 1 1 56F4C917
+P 5200 3050
+F 0 "U2" H 5200 2850 60  0000 C CNN
+F 1 "LM258D" H 5200 2750 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5200 2600 60  0001 C CNN
+F 3 "" H 5200 2600 60  0000 C CNN
+	1    5200 3050
+	1    0    0    -1  
+$EndComp
+Text Label 6625 1850 3    60   ~ 0
+STOP
+Wire Wire Line
+	5275 1950 5275 2275
+Wire Wire Line
+	5275 2275 6725 2275
+Wire Wire Line
+	5975 2275 5975 2350
+Wire Wire Line
+	5975 2550 5975 3500
+Wire Wire Line
+	5975 3100 5650 3100
+Connection ~ 5975 3100
+Wire Wire Line
+	6125 3275 5975 3275
+Connection ~ 5975 3275
+Wire Wire Line
+	6325 3275 6525 3275
+Wire Wire Line
+	6525 3275 6525 2900
+Wire Wire Line
+	5650 2900 6850 2900
+Wire Wire Line
+	6675 3200 6675 3400
+Wire Wire Line
+	6675 2900 6675 3000
+Connection ~ 6525 2900
+Connection ~ 6675 2900
+Wire Wire Line
+	7175 2900 7050 2900
+Wire Wire Line
+	7375 2450 7375 2700
+Wire Wire Line
+	6625 1850 6625 2600
+Wire Wire Line
+	6625 2600 7375 2600
+Connection ~ 7375 2600
+Wire Wire Line
+	4900 3925 4825 3925
+Wire Wire Line
+	4825 3925 4825 3775
+Wire Wire Line
+	5100 3925 5475 3925
+Wire Wire Line
+	5650 3000 5775 3000
+Wire Wire Line
+	5775 3000 5775 3550
+Wire Wire Line
+	5775 3550 5300 3550
+Wire Wire Line
+	5300 3550 5300 3925
+Connection ~ 5300 3925
+Wire Wire Line
+	6525 1850 6525 2150
+Wire Wire Line
+	6525 2150 6050 2150
+Wire Wire Line
+	6050 2150 6050 1375
+Wire Wire Line
+	6050 1375 8050 1375
+Wire Wire Line
+	8050 1375 8050 3925
+Wire Wire Line
+	8050 3925 5675 3925
+Wire Wire Line
+	5975 3700 5975 4150
+Connection ~ 5975 3925
+Wire Wire Line
+	6675 3600 6675 3925
+Connection ~ 6675 3925
+Wire Wire Line
+	7375 3100 7375 3925
+Connection ~ 7375 3925
+Text Label 6525 1850 3    60   ~ 0
+GND
+Wire Wire Line
+	5075 1950 5075 2425
+Wire Wire Line
+	5075 2425 5750 2425
+Wire Wire Line
+	5750 2425 5750 2000
+Wire Wire Line
+	5750 2000 6425 2000
+Wire Wire Line
+	6425 2000 6425 1850
+Text Label 6425 1850 3    60   ~ 0
++5V
+Wire Wire Line
+	6725 2275 6725 1850
+Connection ~ 5975 2275
+Text Label 6725 1850 3    60   ~ 0
+SIG
+Wire Wire Line
+	3950 2775 3950 4150
+Wire Wire Line
+	3950 2950 4200 2950
+Wire Wire Line
+	4200 2775 4200 3100
+Wire Wire Line
+	4200 3100 4750 3100
+Connection ~ 4200 2950
+Wire Wire Line
+	3950 4150 5975 4150
+Connection ~ 3950 2950
+Wire Wire Line
+	3950 2075 3950 2575
+Wire Wire Line
+	3950 2375 4650 2375
+Wire Wire Line
+	4200 2375 4200 2575
+Wire Wire Line
+	5650 2800 5775 2800
+Wire Wire Line
+	5775 2800 5775 2575
+Wire Wire Line
+	4650 2575 6275 2575
+Wire Wire Line
+	4650 2375 4650 2575
+Connection ~ 4200 2375
+Wire Wire Line
+	3950 2075 5075 2075
+Connection ~ 5075 2075
+Connection ~ 3950 2375
+Wire Wire Line
+	5175 1950 5175 2075
+Wire Wire Line
+	5175 2075 5900 2075
+Wire Wire Line
+	5900 2075 5900 1675
+Wire Wire Line
+	5900 1675 6050 1675
+Connection ~ 6050 1675
+Wire Wire Line
+	4975 3625 5200 3625
+Wire Wire Line
+	5200 3625 5200 2575
+Connection ~ 5200 2575
+Wire Wire Line
+	4750 2900 4525 2900
+Wire Wire Line
+	4525 2900 4525 3100
+Connection ~ 4525 3100
+Wire Wire Line
+	4750 3000 4625 3000
+Wire Wire Line
+	4625 3000 4625 3100
+Connection ~ 4625 3100
+NoConn ~ 4750 2800
+Wire Wire Line
+	7375 2250 7375 2075
+Wire Wire Line
+	7375 2075 7000 2075
+Wire Wire Line
+	7000 2075 7000 2500
+Wire Wire Line
+	7000 2500 6275 2500
+Wire Wire Line
+	6275 2500 6275 2575
+Connection ~ 5775 2575
+NoConn ~ 4825 3475
+$EndSCHEMATC
