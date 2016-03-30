@@ -3,7 +3,7 @@
   (general
     (links 31)
     (no_connects 0)
-    (area 109.16 93.396999 162.265 112.05)
+    (area 117.780999 93.396999 162.127001 111.327001)
     (thickness 1.6)
     (drawings 5)
     (tracks 125)
@@ -542,6 +542,11 @@
       (net 8 "Net-(R1-Pad2)") (solder_mask_margin 0.2))
     (pad 2 smd rect (at 0 -1.65 270) (size 1.6 1.5) (layers F.Cu F.Paste F.Mask)
       (net 2 /+5V) (solder_mask_margin 0.2))
+    (model Potentiometers.3dshapes/AB2_POT_TRIM.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module TO_SOT_Packages_THT:TO-92_Horizontal1_Inline_Narrow_Oval (layer F.Cu) (tedit 54F2408C) (tstamp 56F6DEE3)
@@ -735,7 +740,7 @@
   (segment (start 151.13 103.82) (end 151.638 103.82) (width 0.508) (layer F.Cu) (net 8))
   (segment (start 151.638 103.82) (end 152.08 103.82) (width 0.508) (layer F.Cu) (net 8) (tstamp 56F6E53E))
   (segment (start 152.289 108.315) (end 151.435 108.315) (width 0.508) (layer F.Cu) (net 8) (tstamp 56F6E3E5))
-  (segment (start 152.908 107.696) (end 152.289 108.315) (width 0.508) (layer F.Cu) (net 8) (tstamp 56F6E3E4))
+  (segment (start 152.908 107.696) (end 152.289 108.315) (width 0.25) (layer F.Cu) (net 8) (tstamp 56F6E3E4))
   (segment (start 152.908 104.648) (end 152.908 107.696) (width 0.508) (layer F.Cu) (net 8) (tstamp 56F6E3E3))
   (segment (start 152.08 103.82) (end 152.908 104.648) (width 0.508) (layer F.Cu) (net 8) (tstamp 56F6E3E2))
   (segment (start 142.24 106.365) (end 143.891 106.365) (width 0.508) (layer F.Cu) (net 9))
